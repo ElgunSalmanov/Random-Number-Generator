@@ -46,7 +46,7 @@ function App() {
           <button className="container-up-range-reset" onClick={handleReset}>
             <img
               className="container-up-range-reset-image"
-              src="../src/assets/reset.svg"
+              src="./assets/reset.svg"
               alt="reset"
             />
           </button>
