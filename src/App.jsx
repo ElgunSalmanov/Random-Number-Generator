@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import reset from "./assets/reset.svg";
 import "./App.scss";
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
           <button className="container-up-range-reset" onClick={handleReset}>
             <img
               className="container-up-range-reset-image"
-              src="../src/assets/reset.svg"
+              src={reset}
               alt="reset"
             />
           </button>
